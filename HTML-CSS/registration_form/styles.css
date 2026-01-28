@@ -13,12 +13,15 @@ body {
     text-align: center;
   }
   
-  form {
+  #register-form {
     width: 60vw;
     max-width: 500px;
     min-width: 300px;
     margin: 0 auto;
-    padding-bottom: 2em;
+    padding: 20px 30px;
+    background-color: #51519c;
+    border-radius: 10px;
+
   }
   
   fieldset {
@@ -42,6 +45,8 @@ body {
     margin: 10px 0 0 0;
     width: 100%;
     min-height: 2em;
+    border-radius: 5px;
+
   }
   
   input, textarea {
